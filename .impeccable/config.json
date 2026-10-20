@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-10-13T10:15:10.445Z",
+        "reason": "Figma design specifies Inter; user asked to reproduce the Figma exactly without changes"
+      }
+    ]
+  }
+}

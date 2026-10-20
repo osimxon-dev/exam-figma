@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-brand: #db4444;
+  --color-brand-hover: #e07575;
+  --color-accent: #00ff66;
+  --color-soft: #f5f5f5;
+  --color-light: #fafafa;
+  --shadow-box: 0 1px 13px rgba(0, 0, 0, 0.05);
+}
+
+@layer base {
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+  input,
+  textarea {
+    outline: none;
+  }
+}
